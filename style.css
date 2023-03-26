@@ -9,6 +9,7 @@ font-family: 'Lato', sans-serif;
 font-family: 'Oswald', sans-serif; */
 .container {
   width: 100%;
+  min-width: 1000px;
 }
 
 section {
@@ -121,4 +122,124 @@ h2 {
   width: fit-content;
   padding: 20px;
   letter-spacing: 4px;
+}
+/* CONTATOS */
+
+.contatos h2 {
+  color: white;
+  background-color: rgb(96, 72, 41);
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Fraunces", serif;
+  width: fit-content;
+  padding: 20px;
+  letter-spacing: 4px;
+  margin-top: 30px;
+}
+.parallax4 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.parallax4 iframe {
+  width: 70%;
+  height: 400px;
+  margin: 70px 0;
+}
+
+.box-contatos {
+  width: 500px;
+  color: white;
+  background-color: rgb(96, 72, 41);
+  font-weight: 400;
+  font-family: "oswald", serif;
+  padding: 20px;
+}
+.contatos .box-contatos{
+  margin-bottom: 30px;
+}
+/* HORARIOS */
+
+.horarios {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+
+  background-image: url(assets/cafeteria.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'oswald', serif
+}
+.conteudo-horarios {
+  width: 80%;
+  
+}
+.horarios h3 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 100px;
+}
+.horarios h4, .horarios p {
+  font-size: 25px;
+  color: white;
+  
+  text-align: right;
+}
+.horarios ul li {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  position: relative;
+  line-height: 50px;
+}
+
+.lista .linha {
+  width: 63%;
+  height: 1px;
+  bottom: 50%;
+  background-color: #acacac;
+
+}
+li .span {
+  color: rgb(196, 164, 124);
+}
+
+.rodape{
+  height: 100px;
+  width: 100%;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'lato';
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.rodape span{
+  color: rgb(196, 164, 124);
+}
+.rodape a {
+  text-decoration: none;
+}
+
+.voltar{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.voltar img {
+  width: 50px;
+  
 }
